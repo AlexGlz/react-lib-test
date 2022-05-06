@@ -1,5 +1,5 @@
 {
-  "name": "react-lib-test",
+  "name": "@AlexGlz/react-lib-test",
   "version": "0.0.1",
   "description": "React Library",
   "scripts": {
@@ -30,5 +30,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/AlexGlz"
+  }
 }

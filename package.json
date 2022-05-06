@@ -1,0 +1,34 @@
+{
+  "name": "react-lib-test",
+  "version": "0.0.1",
+  "description": "React Library",
+  "scripts": {
+    "rollup": "rollup -cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGlz/react-lib-test.git"
+  },
+  "author": "AlexGlz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGlz/react-lib-test/issues"
+  },
+  "homepage": "https://github.com/AlexGlz/react-lib-test#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.8",
+    "react": "^18.1.0",
+    "rollup": "^2.72.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.6.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}

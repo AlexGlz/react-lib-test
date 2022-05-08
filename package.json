@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "React Library",
   "scripts": {
-    "rollup": "rollup -cn"
+    "rollup": "rollup -cn",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,20 @@
   },
   "homepage": "https://github.com/AlexGlz/react-lib-test#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
+    "@testing-library/react": "^13.2.0",
+    "@types/jest": "^27.5.0",
     "@types/react": "^18.0.8",
+    "babel-jest": "^28.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "react": "^18.1.0",
     "rollup": "^2.72.0",
     "rollup-plugin-dts": "^4.2.1",

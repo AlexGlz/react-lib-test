@@ -1,6 +1,6 @@
 {
   "name": "@AlexGlz/react-lib-test",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "React Library",
   "scripts": {
     "rollup": "rollup -c",
@@ -47,6 +47,7 @@
     "react": "^17.0.0",
     "rollup": "^2.72.0",
     "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",

@@ -1,4 +1,5 @@
 import React from "react";
+import ClayButton from "@clayui/button"
 import "./Button.scss"
 
 
@@ -7,7 +8,7 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-  return <button className="myButton"><b>{props.label}</b></button>;
+  return <ClayButton className="myButton"><b>{props.label}</b></ClayButton>;
 };
 
 export default Button;

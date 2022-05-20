@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs"; //Converts commonjs modules to E
 import typescript from "@rollup/plugin-typescript"; //Teaches rollup how to process Typescript files
 import dts from "rollup-plugin-dts"; //rollup your .d.ts files
 import postcss from "rollup-plugin-postcss";
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 const packageJson = require("./package.json");
 
@@ -31,7 +32,7 @@ export default [
   {
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [dts()],
+    plugins: [ peerDepsExternal(),dts()],
     external: [/\.(css|less|scss)$/],
   },
 ];

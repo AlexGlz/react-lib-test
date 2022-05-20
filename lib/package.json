@@ -1,6 +1,6 @@
 {
   "name": "@AlexGlz/react-lib-test",
-  "version": "0.2.15",
+  "version": "0.3.0",
   "description": "React Library",
   "scripts": {
     "rollup": "rollup -c",
@@ -84,6 +84,8 @@
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
     "postcss": "^8.4.13",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "rollup": "^2.74.1",
     "rollup-plugin-dts": "^4.2.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
